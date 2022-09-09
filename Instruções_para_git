@@ -1,0 +1,11 @@
+Para versionamento no git. Primeiro é preciso usar o comando "Git Init" para iniciar seu diretorio como um repositorio. Depois 
+anchs.
+para criar novas brancs, deve-se usar o comando "Git checkout -b 'nome da nova branch'", isso fará a criação bem como a mudança para a branch nova.
+Uma vez dentro dessa branch, é possivel fazer qualquer alteração em qualquer arquivo, sem que altere o arquivo que esta na main.
+Depois das autreações feitas. deve-se fazer o staging atraves do "Git add 'nome do arquivo'" (se quiser fazer o staging de um arquivo especifico), ou "git add ." (para fazer o staging de todos
+no diretorio referenciado (atual).
+Depois disso, deve-se fazer o commit com o comando "git commit -m "breve descrição do que foi modificado".
+Feito todo esse processo, voltar a branch main ("git checkout main")
+Fazer o merge entre as branchs modifcadas, comando: "git merge 'nome das branchs'".
+Após tudo isso, seus versionamento deve ter ocorrido perfeitamente. Se não, ligar para 190 (brincadeira, procura o Gus que foi ele quem me ensinou).
+É possivel também, apagar as outras versões com o comando "git branch -D 'nome da branch'".
